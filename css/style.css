@@ -69,8 +69,6 @@ footer a {border: none; color: white; text-decoration: none;}
 footer {margin: 0 auto; position: absolute; bottom: 55%; right: -255px; padding: 40px 0 0 0; width: 600px; -webkit-transform: rotate(-90deg);}
 .fancy {font-family: baskerville, garamond, serif; font-weight: lighter; font-style: italic;}
 
-#wrapper {margin: 0px auto; max-width: 900px; padding-top: 40px; }
-
 ul.nav {list-style: none; margin: 0px; padding: 0px; color: #06DDA0;}
 ul.nav li {display: inline; font-size: 12px; letter-spacing: .1em; text-transform: uppercase; padding-right: 4px;}
 ul.nav a {color: #06DDA0; border-bottom: 1px dotted #06DDA0;}
@@ -80,13 +78,13 @@ ul.nav a:hover {font-weight: 900;}
 #filters {padding: 30px 0px; overflow: auto;}
 #tags {line-height: 25px;}
 
-table {border-spacing: 0px; min-width: 900px; margin: 0 auto;}
+table {border-spacing: 0px; min-width: 100%; margin: 0 auto;}
 th {padding: 10px}
 td, text {padding: 5px 10px; font-size: 12px; font-weight: lighter; line-height: 18px;}
 td.article a:visited {color: #777;}
-td.date {min-width: 119px;}
+td.date {max-width: 119px;}
 tr {text-align: left; vertical-align: top; padding: 4px 0px;}
-tr:nth-child(2n+2) {background: #eee;}
+tr:nth-child(2n+2) {background: transparent;}
 .tHeader {cursor: pointer;}
 .tHeader::after {content: " \2193 \2191 "; font-size: 10px; padding-left: 3px;}
 
