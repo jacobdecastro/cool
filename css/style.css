@@ -67,11 +67,12 @@ animation: backgroundfun 9s ease infinite;
 footer .inline-list li {margin-right: 40px;}
 footer a {border: none; color: white; text-decoration: none;}
 footer {margin: 0 auto; position: absolute; bottom: 55%; right: -255px; padding: 40px 0 0 0; width: 600px; -webkit-transform: rotate(-90deg);}
+
 .fancy {font-family: baskerville, garamond, serif; font-weight: lighter; font-style: italic;}
 
-ul.nav {list-style: none; margin: 0px; padding: 0px; color: #06DDA0;}
+ul.nav {list-style: none; margin: 0px; padding: 0px; color: black;}
 ul.nav li {display: inline; font-size: 12px; letter-spacing: .1em; text-transform: uppercase; padding-right: 4px;}
-ul.nav a {color: #06DDA0; border-bottom: 1px dotted #06DDA0;}
+ul.nav a {color: black; border-bottom: 1px dotted black;}
 ul.nav a.dim {color: #acacac; border-bottom: 1px dotted #acacac;}
 ul.nav a:hover {font-weight: 900;}
 
@@ -80,7 +81,7 @@ ul.nav a:hover {font-weight: 900;}
 
 table {border-spacing: 0px; min-width: 100%; margin: 0 auto;}
 th {padding: 10px}
-td, text {padding: 5px 10px; font-size: 12px; font-weight: lighter; line-height: 18px;}
+td, text {padding: 5px 10px; font-size: 16px; font-weight: lighter; line-height: 18px;}
 td.article a:visited {color: #777;}
 td.date {max-width: 119px;}
 tr {text-align: left; vertical-align: top; padding: 4px 0px;}
