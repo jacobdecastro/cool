@@ -1,14 +1,72 @@
-body {font-family: Montserrat; font-size: 13px; padding: 10px 0px 40px 0px; color: #333;}
+.container {
+      padding-left: 15%;
+      padding-right: 15%;
+      padding-top: 5%;
+    }
 
-h1 {font-size: 48px; margin-bottom: 20px;}
-.highlighted {color: #06DDA0; opacity: 1; transition: opacity .25s ease-in-out;}
-.highlighted:hover {opacity: 0.5;}
-a {text-decoration: none; color: #333;}
-a:hover {padding-bottom: 1px; border-bottom: 1px dotted #333;}
-p a {color: #06DDA0;}
+    .grey {
+      color: #444;
+      font-weight: 700;
+    }
+    .wave {
+  background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 3px 3px;
+  color: #000;
+  text-decoration: none;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23FFFFFF' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: 0 100%;
+  background-size: auto 6px;
+  background-repeat: repeat-x;
+  text-decoration: none;
+  color: white;
+}
 
-.light-type {color: #777;} /* #06DDA0 */
-.dim {color: #acacac;}
+html {
+  font-family: proxima-nova, sans-serif;
+  font-size: 16px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: basic-sans, sans-serif;
+}
+
+html {
+  background: linear-gradient(183deg, #00b7b1, #ffae26, #d726ff);
+background-size: 1000% 1000%;
+
+-webkit-animation: backgroundfun 9s ease infinite;
+-moz-animation: backgroundfun 9s ease infinite;
+animation: backgroundfun 9s ease infinite;
+
+}
+
+@-webkit-keyframes backgroundfun {
+    0%{background-position:0% 53%}
+    50%{background-position:100% 48%}
+    100%{background-position:0% 53%}
+}
+@-moz-keyframes backgroundfun {
+    0%{background-position:0% 53%}
+    50%{background-position:100% 48%}
+    100%{background-position:0% 53%}
+}
+@keyframes backgroundfun {
+    0%{background-position:0% 53%}
+    50%{background-position:100% 48%}
+    100%{background-position:0% 53%}
+}
+
+.meta {text-transform: uppercase; font-size: 11px; letter-spacing: .15em;}
+.meta a:hover {color: black; transition:0.2s;}
+
+.inline-list {list-style: none; margin: 0; padding: 0;}
+.inline-list li {display: inline-block;}
+
+footer .inline-list li {margin-right: 40px;}
+footer a {border: none; color: white; text-decoration: none;}
+footer {margin: 0 auto; position: absolute; bottom: 55%; right: -255px; padding: 40px 0 0 0; width: 600px; -webkit-transform: rotate(-90deg);}
 .fancy {font-family: baskerville, garamond, serif; font-weight: lighter; font-style: italic;}
 
 #wrapper {margin: 0px auto; max-width: 900px; padding-top: 40px; }
@@ -37,6 +95,4 @@ input {margin: 12px 0px; border: none; border-bottom: 1px solid #333; background
 .sml-button {border-radius: 1px; cursor: pointer; margin-left: 4px; padding: 4px 6px; background-color: #06DDA0; font-size: 11px; text-transform: uppercase; letter-spacing: .1em; text-align: center; color: #fff; font-family: Montserrat;}
 .sml-button:hover {background: #eee;}
 .button-pressed {background: #0CCC96;}
-
-#info {padding: 30px 0px;}
 
