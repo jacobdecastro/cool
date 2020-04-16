@@ -83,7 +83,7 @@ ul.nav a:hover {font-weight: 900;}
 table {border-spacing: 0px; min-width: 100%; margin: 0 auto;}
 th {padding: 10px}
 td, text {padding: 5px 10px; font-size: 16px; font-weight: lighter; line-height: 18px;}
-td.article a:visited {color: #777;}
+td.article a:visited {color: black;}
 td.date {max-width: 119px;}
 tr {text-align: left; vertical-align: top; padding: 4px 0px;}
 tr:nth-child(2n+2) {background: transparent;}
@@ -101,6 +101,20 @@ input {margin: 12px 0px; border: none; border-bottom: 1px solid #333; background
       text-decoration: none;
 }
 
+::-webkit-input-placeholder { /* Edge */
+  color: black;
+      text-decoration: none;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: black;
+      text-decoration: none;
+}
+
+::placeholder {
+  color: black;
+      text-decoration: none;
+}
 #articleSearch {
       font-family: proxima-nova, sans-serif;
 }
