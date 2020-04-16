@@ -9,14 +9,14 @@
 		<script type="text/javascript" src='js/sheetsee.js'></script>
     
 		<link rel="shortcut icon" href="https://raw.github.com/jlord/sheetsee-pocket/master/favicon-p.png"/>
-		<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://use.typekit.net/ljg7iyb.css">
 		<link media="screen" rel="stylesheet" type="text/css" href="css/style.css"> 
 	</head>
 <body>
 	<div class="container">
 		<h1 style="text-align: center;">some <span class="wave">web dev</span> projects from jacob decastro</h1>
 		<p style="text-align: center;">web and print designer at the indiana daily student | journalism student at indiana university | previous work with nasa, u.s. house of representatives rules committee, the shawnee summer theatre and the indiana state department of agriculture</p>
-	</div>
+	
 
 		<div id="filters" class="container">
 			<input id="articleSearch" type="text" placeholder="Search for.."></input>
@@ -25,7 +25,7 @@
     </div>
 
 		<div id="articleTable"></div>
-
+	</div>
     <footer>
       <ul class="meta inline-list">	
         <li><a href="http://jacobdecastro.com" target="_blank">Main website</a></li>
@@ -34,10 +34,6 @@
       </ul>
     </footer>
 	</div><!-- end wrapper -->
-
-	<script id="title" type="text/html">
-		<h1><span class="highlighted">{{numArticles}}</span> Articles from Pocket</h1>
-	</script>
 
   <script id="tags" type="text/html">
     {{#rows}}
